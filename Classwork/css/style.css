@@ -1,0 +1,975 @@
+#mainSection {
+  padding: 30px 0px;
+  background: url(../img/main-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+#mainSection .navbar-nav .nav-item .bottom-border {
+  height: 2px;
+  width: 0%;
+  background: yellow;
+  transform-origin: left center;
+  transition: all .3s ease;
+}
+#mainSection .navbar-nav .nav-item:hover .bottom-border {
+  width: 80%;
+}
+#mainSection .navbar-nav .nav-item a span {
+  padding: 10px;
+  background: white;
+  border-radius: 100%;
+}
+#mainSection .ara {
+  margin: 0 0 0 0px;
+  float: left;
+  padding: 10px;
+}
+#mainSection .ara p {
+  font-size: 10px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+}
+#mainSection .ara a {
+  font-size: 37px;
+  color: #fff;
+  font-weight: 400;
+  padding: 41px 0 0 0px;
+  margin: 22px 0 0 -50px;
+  line-height: 1.41176;
+  cursor: pointer;
+}
+#mainSection .ara a:hover {
+  border-bottom: 2px solid white;
+}
+#mainSection .ara h1 {
+  margin: -61px 0 0 -23px;
+  font-size: 100px;
+  padding: 41px 0 0 0px;
+  color: #fff;
+}
+#mainSection .ara h4 {
+  margin: -47px 0 0 -16px;
+  font-size: 30px;
+  padding: 41px 0 0 0px;
+  color: #fff;
+  font-family: "Crimson Text", "Times New Roman", Times, serif;
+}
+#mainSection .ara button {
+  background: #ffea00;
+  cursor: pointer;
+  border: #ffea00;
+  margin: 43px 0 0 -14px;
+  font-size: 37px;
+  border-radius: 18px;
+}
+
+#welcomeSection {
+  height: 600px;
+}
+#welcomeSection h3 {
+  margin: 100px 0 0 0%;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 45px;
+}
+#welcomeSection hr {
+  width: 100px;
+  height: 1px;
+  background: green;
+}
+#welcomeSection p {
+  margin: 36px 0 0 190px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.41176;
+  width: 800px;
+}
+#welcomeSection .ikon {
+  margin: 104px 0 0 77px;
+}
+#welcomeSection span {
+  padding: 30px;
+  background: green;
+  border-radius: 100%;
+  color: white;
+  text-shadow: 0px 0px 6px black;
+}
+#welcomeSection h5 {
+  margin: -30px 0 0 91px;
+  font-size: 27px;
+}
+#welcomeSection .ikon p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0 0 0;
+  margin: 0 0 0 89px;
+  text-align: left;
+}
+#welcomeSection .ikon ul {
+  margin: 16px 0 0 100px;
+}
+#welcomeSection .ikon1 {
+  margin: 104px 0 0 -7px;
+}
+#welcomeSection .ikon1 p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0 0 0;
+  margin: 0 0 0 91px;
+  text-align: left;
+}
+#welcomeSection .ikon2 {
+  margin: -131px 0 0 834px;
+}
+#welcomeSection .ikon2 h5 {
+  margin: -30px 0 0 91px;
+  font-size: 24px;
+}
+#welcomeSection .ikon2 p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0 0 0;
+  margin: 0 0 0 91px;
+  text-align: left;
+}
+
+#aboutSection {
+  background-color: lightgrey;
+  height: 700px;
+}
+#aboutSection .qaqaw {
+  background: url(../img/qaqaw.png) no-repeat center center;
+  height: 700px;
+}
+#aboutSection .qaqaw1 h3 {
+  margin: 183px 0 -133px -514px;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 45px;
+}
+#aboutSection .qaqaw1 hr {
+  width: 100px;
+  height: 1px;
+  background: green;
+  margin: 152px 0 -99px 0px;
+}
+#aboutSection .qaqaw1 p {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 23px 184px 18px 0px;
+  margin: 133px 0 0 0px;
+  text-align: left;
+}
+#aboutSection h5 {
+  font-size: 30px;
+  margin: 15px 20px 0 -4px;
+  display: inline-block;
+}
+#aboutSection .dirnaq {
+  margin: 0 0 0 0;
+}
+#aboutSection .dirnaq p {
+  margin: -349px -16px -42px 21px;
+  padding: 0 0 0 0;
+  line-height: 1;
+  text-align: left;
+  display: inline-block;
+}
+#aboutSection button {
+  background: green;
+  height: 50px;
+  width: 200px;
+  border-radius: 18px;
+}
+#aboutSection button:hover {
+  cursor: pointer;
+}
+#aboutSection .yaz {
+  font-size: 20px;
+  line-height: 1.2;
+  border-radius: 5px;
+  margin: 36px 0px 7px 14px;
+  color: white;
+}
+
+#testimonialsSection {
+  height: 590px;
+  	/*p{
+  		margin: 36px 0 0 190px;
+  		text-align: center;
+  		font-size: 17px;
+      	font-weight: 600;
+      	line-height: 1.41176;
+      	width: 800px;
+  
+  
+  	}*/
+}
+#testimonialsSection h3 {
+  margin: 100px 0 0 0%;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 45px;
+}
+#testimonialsSection hr {
+  width: 100px;
+  height: 1px;
+  background: green;
+}
+#testimonialsSection .qoca {
+  border-radius: 50%;
+  margin: 0 0 0 0;
+  position: relative;
+}
+#testimonialsSection .ikon {
+  margin: 104px 0 0 -39px;
+  border: 1px solid lightgrey;
+  box-shadow: 0 0 2px 2px;
+}
+#testimonialsSection span {
+  padding: 30px;
+  background: green;
+  border-radius: 100%;
+  color: white;
+  text-shadow: 0px 0px 6px black;
+}
+#testimonialsSection h5 {
+  margin: -30px 0 0 91px;
+  font-size: 27px;
+}
+#testimonialsSection .ikon p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0 0 0;
+  margin: 0 0 0 89px;
+  text-align: left;
+}
+#testimonialsSection .ikon ul {
+  margin: 16px 0 0 100px;
+}
+#testimonialsSection .ikon1 {
+  margin: 104px 0 0 53px;
+  border: 1px solid lightgrey;
+  box-shadow: 0 0 2px 2px;
+}
+#testimonialsSection .ikon1 p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0 0 0;
+  margin: 0 0 0 91px;
+  text-align: left;
+}
+#testimonialsSection .ikon2 {
+  margin: -189px 0 0 834px;
+  border: 1px solid lightgrey;
+  box-shadow: 0 0 2px 2px;
+}
+#testimonialsSection .ikon2 h5 {
+  margin: -30px 0 0 91px;
+  font-size: 24px;
+}
+#testimonialsSection .ikon2 p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0 0 0;
+  margin: 0 0 0 91px;
+  text-align: left;
+}
+
+#philosophySection {
+  height: 600px;
+  background-image: url(../img/main-bg.jpg);
+}
+#philosophySection h3 {
+  margin: 150px 0 0 0;
+  padding: 0 0 0 0;
+  font-size: 24px;
+  color: white;
+}
+#philosophySection h1 {
+  margin: 25px 0 0 -5px;
+  padding: 0 0 0 0;
+  font-size: 60px;
+  color: white;
+}
+#philosophySection hr {
+  width: 80px;
+  height: 1px;
+  background: white;
+  margin: 3px 0 0 0;
+}
+#philosophySection p {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 18px;
+  color: white;
+}
+#philosophySection button {
+  background: #ffea00;
+  cursor: pointer;
+  border: #ffea00;
+  margin: 43px 0 0 -14px;
+  font-size: 37px;
+  border-radius: 15px;
+}
+#philosophySection .screen {
+  margin: 180px 0 0 0;
+}
+
+#footerSection {
+  background: black;
+  height: 550px;
+  color: white;
+}
+#footerSection .logo {
+  margin: 56px 0 0 0;
+}
+#footerSection h5 {
+  margin: 56px 0 0 18px;
+}
+#footerSection .unvan {
+  margin: -118px 0 0 238px;
+}
+#footerSection .unvan dl dd {
+  margin: 0 0 0 0;
+}
+#footerSection .gede1 {
+  margin: 24px 0 0 120px;
+}
+#footerSection .gede1 p {
+  margin: -42px 0 0 65px;
+  font-size: 10px;
+  text-align: left;
+}
+#footerSection .gede2 {
+  margin: 42px 0 0 0px;
+}
+#footerSection .gede3 {
+  margin: 42px 0 0 0px;
+}
+#footerSection .gedeler {
+  margin: 0 0 0 -1px;
+}
+#footerSection .user {
+  margin: 0px 0 0 99px;
+}
+#footerSection .ortayazi {
+  margin: 86px 0 0 -266px;
+  color: grey;
+  font-size: 14px;
+}
+
+#mainSection1 {
+  padding: 30px 0px;
+  height: 100px;
+}
+#mainSection1 .navbar-nav .nav-item .bottom-border {
+  height: 2px;
+  width: 0%;
+  background: yellow;
+  transform-origin: left center;
+  transition: all .3s ease;
+}
+#mainSection1 .navbar-nav .nav-item:hover .bottom-border {
+  width: 80%;
+}
+#mainSection1 .navbar-nav .nav-item a span {
+  padding: 10px;
+  background: white;
+  border-radius: 100%;
+}
+
+#aboutsection2 {
+  color: black;
+  height: 300px;
+  background: url(../img/about1.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#aboutsection2 .container-fluid .row .yazi1 {
+  margin: 75px 0 0 526px;
+  font-size: 102px;
+  color: white;
+}
+#aboutsection2 .container-fluid .row .yaz1 {
+  margin: 0 0 0 600px;
+  color: white;
+  display: inline-block;
+}
+#aboutsection2 .container-fluid .row .yaz2 {
+  margin: 0 0 0 0px;
+  color: white;
+  display: inline-block;
+}
+
+#certifecate {
+  background: white;
+  height: 800px;
+}
+#certifecate .container .row .bugede {
+  margin: 70px 0 0 0;
+}
+#certifecate .container .row h2 {
+  margin: 92px 0 0 -121px;
+  font-size: 50px;
+  color: lightgrey;
+}
+#certifecate .container .row p {
+  margin: 0px 0 0 -121px;
+  font-size: 24px;
+  font-family: "Crimson Text", "Times New Roman", Times, serif;
+}
+#certifecate .container .row hr {
+  width: 100px;
+  height: 1px;
+  background: green;
+  margin: 20px 0 0 -122px;
+}
+#certifecate .container .row .uzun {
+  margin: 41px 0 0 -123px;
+  font-size: 15px;
+  font-family: "Crimson Text", "Times New Roman", Times, serif;
+  color: grey;
+}
+#certifecate .container .row .my {
+  margin: 20px 0 0 -67px;
+  font-size: 20px;
+  display: inline-block;
+}
+#certifecate .container .row .qiraq {
+  width: 50px;
+  height: 1px;
+  background: black;
+  margin: -76px 0 0 -128px;
+}
+#certifecate .container .row button {
+  background: green;
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 0 0 2px 2px green;
+  margin: 20px 0 0 0px;
+  font-size: 37px;
+  color: white;
+}
+#certifecate .container .tel {
+  margin: 45px 0 0 0;
+}
+#certifecate .container .nomre p {
+  margin: -20px 0 0 28px;
+  font-size: 15px;
+}
+#certifecate .container .mail {
+  margin: 10px 0 0 0;
+}
+#certifecate .container .inbox p {
+  margin: -21px 0 0 26px;
+  font-size: 15px;
+}
+#certifecate .container .container .row .col-md-3 .ser img {
+  margin: 14px 0 0 -152px;
+}
+#certifecate .container .container .row .col-md-3 .ser1 img {
+  margin: 14px 0 0 -92px;
+}
+#certifecate .container .container .row .col-md-3 .ser2 img {
+  margin: 14px 0 0 -29px;
+}
+#certifecate .container .container .row .col-md-3 .ser3 img {
+  margin: 14px 0 0 29px;
+}
+
+#ikimin {
+  background: lightgrey;
+  height: 1000px;
+}
+#ikimin .container-fluid .container .row .reqem {
+  margin: 42px 0 0 12px;
+  color: green;
+}
+#ikimin .container-fluid .container .row .yazma {
+  margin: -14px 0 0 0;
+}
+#ikimin .container-fluid .container .row .boyuk {
+  margin: 42px 0 0 0px;
+  font-family: "Crimson Text", "Times New Roman", Times, serif;
+  font-size: 17px;
+}
+#ikimin .container-fluid .container .row .reqem1 {
+  margin: 42px 0 0 12px;
+  color: green;
+}
+#ikimin .container-fluid .container .row .yazma1 {
+  margin: -18px 0 0 -13px;
+}
+#ikimin .container-fluid .container .row .boyuk1 {
+  margin: 42px 0 0 0;
+  font-family: "Crimson Text", "Times New Roman", Times, serif;
+  font-size: 17px;
+}
+
+#why {
+  height: 600px;
+}
+#why h3 {
+  margin: 100px 0 0 0%;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 45px;
+}
+#why hr {
+  width: 100px;
+  height: 1px;
+  background: green;
+}
+#why p {
+  margin: 36px 0 0 190px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.41176;
+  width: 800px;
+}
+#why .ikon {
+  margin: 104px 0 0 77px;
+}
+#why span {
+  padding: 30px;
+  background: green;
+  border-radius: 100%;
+  color: white;
+  text-shadow: 0px 0px 6px black;
+}
+#why h5 {
+  margin: -30px 0 0 91px;
+  font-size: 27px;
+}
+#why .ikon p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0 0 0;
+  margin: 0 0 0 89px;
+  text-align: left;
+}
+#why .ikon ul {
+  margin: 16px 0 0 100px;
+}
+#why .ikon1 {
+  margin: 104px 0 0 -7px;
+}
+#why .ikon1 p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0 0 0;
+  margin: 0 0 0 91px;
+  text-align: left;
+}
+#why .ikon2 {
+  margin: -160px 0 0 829px;
+}
+#why .ikon2 h5 {
+  margin: -30px 0 0 91px;
+  font-size: 24px;
+}
+#why .ikon2 p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0 0 0;
+  margin: 0 0 0 91px;
+  text-align: left;
+}
+
+#invest {
+  height: 200px;
+  background: -webkit-linear-gradient(-90deg, #82c650 0%, #44b872 100%);
+}
+#invest .container-fluid .container .row .ne {
+  margin: 67px 0 0 22px;
+  text-align: center;
+}
+#invest .container-fluid .container .row .ne h3 {
+  font-size: 38px;
+  color: white;
+}
+#invest .container-fluid .container .row button {
+  background: #ffea00;
+  cursor: pointer;
+  border: #ffea00;
+  border-radius: 5px;
+  margin: 86px 0 0 35px;
+  font-size: 39px;
+}
+
+#useful {
+  background: #f2f4fa;
+  height: 600px;
+}
+#useful .container .row h3 {
+  margin: 100px 0 0 0%;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 45px;
+}
+#useful .container .row hr {
+  width: 100px;
+  height: 1px;
+  background: green;
+}
+#useful .container .row .market h4 {
+  margin: -71px 0 0 16px;
+  text-align: center;
+  color: white;
+  opacity: 0.6;
+}
+#useful .container .row .obwi img {
+  width: 100%;
+}
+#useful .container .row .obwi1 img {
+  width: 100%;
+}
+#useful .container .row .obwi2 img {
+  width: 100%;
+}
+
+#mainSection2 {
+  padding: 30px 0px;
+  height: 100px;
+}
+#mainSection2 .navbar-nav .nav-item .bottom-border {
+  height: 2px;
+  width: 0%;
+  background: yellow;
+  transform-origin: left center;
+  transition: all .3s ease;
+}
+#mainSection2 .navbar-nav .nav-item:hover .bottom-border {
+  width: 80%;
+}
+#mainSection2 .navbar-nav .nav-item a span {
+  padding: 10px;
+  background: white;
+  border-radius: 100%;
+}
+
+#aboutsection3 {
+  color: black;
+  height: 300px;
+  background: url(../img/about1.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#aboutsection3 .container-fluid .row .yazi1 {
+  margin: 75px 0 0 334px;
+  font-size: 86px;
+  color: white;
+}
+#aboutsection3 .container-fluid .row .yaz1 {
+  margin: 0 0 0 600px;
+  color: white;
+  display: inline-block;
+}
+#aboutsection3 .container-fluid .row .yaz2 {
+  margin: 0 0 0 0px;
+  color: white;
+  display: inline-block;
+}
+
+#invest1 {
+  height: 1230px;
+  background: white;
+}
+#invest1 .container-fluid .container .row .col-md-4 .noqte {
+  margin: 70px 0 0 0;
+}
+#invest1 .container-fluid .container .row .col-md-4 .noqte ul {
+  list-style-type: none;
+  font-size: 17px;
+  line-height: 2;
+}
+#invest1 .container-fluid .container .row h3 {
+  margin: 67px 0 0 -294px;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 45px;
+}
+#invest1 .container-fluid .container .row hr {
+  width: 100px;
+  height: 1px;
+  background: green;
+  margin: 40px 0 0 -32px;
+}
+#invest1 .container-fluid .container .row .inves {
+  margin: 40px 0 0 -32px;
+}
+#invest1 .container-fluid .container .row .inves p {
+  color: grey;
+}
+#invest1 .container-fluid .container .row .inves1 {
+  margin: 40px 0 0 -28px;
+}
+#invest1 .container-fluid .container .row .inves1 p {
+  color: grey;
+}
+#invest1 .container-fluid .container .row .inves1 ul {
+  line-height: 1.5;
+  color: grey;
+}
+#invest1 .container-fluid .container .row .qiz {
+  margin: 25px 0 0 -8px;
+}
+#invest1 .container-fluid .container .row .while {
+  margin: 26px 0 0 -5px;
+  color: grey;
+}
+
+#posible {
+  background: #f2f4fa;
+  height: 1000px;
+}
+#posible h3 {
+  margin: 100px 0 0 0%;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 45px;
+}
+#posible hr {
+  width: 100px;
+  height: 1px;
+  background: green;
+}
+#posible p {
+  margin: 36px 0 0 190px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.41176;
+  width: 800px;
+}
+#posible .ikon {
+  margin: 104px 0 0 90px;
+}
+#posible span {
+  padding: 30px;
+  background: linear-gradient(45deg, #d96262 0%, #ba5151 100%);
+  border-radius: 100%;
+  color: white;
+  text-shadow: 0px 0px 6px black;
+}
+#posible h5 {
+  margin: -30px 0 0 91px;
+  font-size: 27px;
+}
+#posible .ikon p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0 0 0;
+  margin: 0 0 0 89px;
+  text-align: left;
+}
+#posible .ikon ul {
+  margin: 16px 0 0 100px;
+}
+#posible .ikon1 {
+  margin: -106px 0 0 673px;
+}
+#posible .ikon1 p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0 0 0;
+  margin: 0 0 0 91px;
+  text-align: left;
+}
+#posible .qaqa {
+  margin: 70px 0 0 0;
+  height: 500px;
+}
+#posible .qaqayazi {
+  margin: 0px 0 0 -295px;
+}
+#posible .qaqayazi h3 {
+  font-size: 30px;
+  font-style: italic;
+}
+#posible .noqteler {
+  margin: 58px 0 0 49px;
+}
+#posible .noqteler ul {
+  color: grey;
+}
+#posible .book {
+  margin: 0px 0 0 -367px;
+}
+#posible .book p {
+  font-size: 15px;
+  color: grey;
+}
+#posible .firi {
+  margin: 0 0 0 383px;
+}
+#posible .firi button {
+  background: #ffea00;
+  cursor: pointer;
+  border: #ffea00;
+  border-radius: 10px;
+  margin: 43px 0 0 -14px;
+  font-size: 37px;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+#posible .firi1 {
+  margin: -107px 0 0 68px;
+}
+#posible .firi1 button {
+  background: green;
+  cursor: pointer;
+  border: #ffea00;
+  border-radius: 10px;
+  margin: 43px 0 0 -14px;
+  font-size: 37px;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+#lets {
+  height: 500px;
+}
+#lets h3 {
+  margin: 100px 0 0 0%;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 45px;
+}
+#lets hr {
+  width: 100px;
+  height: 1px;
+  background: green;
+}
+#lets p {
+  margin: 36px 0 0 190px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.41176;
+  width: 800px;
+}
+#lets .ikon {
+  margin: 104px 0 0 77px;
+}
+#lets span {
+  padding: 30px;
+  background: green;
+  border-radius: 100%;
+  color: white;
+  text-shadow: 0px 0px 6px black;
+}
+#lets h5 {
+  margin: -30px 0 0 91px;
+  font-size: 27px;
+}
+#lets .ikon p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0 0 0;
+  margin: 0 0 0 89px;
+  text-align: left;
+}
+#lets .ikon ul {
+  margin: 16px 0 0 100px;
+}
+#lets .ikon1 {
+  margin: 104px 0 0 -7px;
+}
+#lets .ikon1 p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0 0 0;
+  margin: 0 0 0 91px;
+  text-align: left;
+}
+#lets .ikon2 {
+  margin: -108px 0 0 822px;
+}
+#lets .ikon2 h5 {
+  margin: -30px 0 0 91px;
+  font-size: 24px;
+}
+#lets .ikon2 p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 0 0 0;
+  margin: 0 0 0 91px;
+  text-align: left;
+}
+
+#footerSection2 {
+  background: black;
+  height: 530px;
+  color: white;
+}
+#footerSection2 .logo {
+  margin: 56px 0 0 0;
+}
+#footerSection2 h5 {
+  margin: 56px 0 0 18px;
+}
+#footerSection2 .unvan {
+  margin: -118px 0 0 238px;
+}
+#footerSection2 .unvan dl dd {
+  margin: 0 0 0 0;
+}
+#footerSection2 .gede1 {
+  margin: 24px 0 0 120px;
+}
+#footerSection2 .gede1 p {
+  margin: -42px 0 0 65px;
+  font-size: 10px;
+  text-align: left;
+}
+#footerSection2 .gede2 {
+  margin: 42px 0 0 0px;
+}
+#footerSection2 .gede3 {
+  margin: 42px 0 0 0px;
+}
+#footerSection2 .gedeler {
+  margin: 0 0 0 -1px;
+}
+#footerSection2 .user {
+  margin: 0px 0 0 99px;
+}
+#footerSection2 .ortayazi {
+  margin: 86px 0 0 -600px;
+  color: grey;
+  font-size: 14px;
+}
+
+#reklam {
+  height: 100px;
+  background: linear-gradient(-90deg, #00cc66 0%, #66ff33 100%);
+}
+#reklam .container-fluid .row .kiwi marquee {
+  margin: 15px 0 0 0;
+  font-size: 50px;
+  font-family: "Arial";
+  color: white;
+  transition: 0.9s;
+}
